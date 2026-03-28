@@ -1,0 +1,40 @@
+@font-face {
+    font-family: jigar;
+    src: url(./Conflict\ 3040.otf);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#box1{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    background-image: url("https://wallpapers.com/images/featured-full/information-technology-background-yj5lntx9lzio3yiz.jpg");
+}
+#box2{
+    margin-top: 150px  ;
+    margin-left: 350px;
+    height: 400px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+h1{
+     text-align: center;
+    color: white;
+    font-family: jigar;
+    
+    
+    padding: 20px;
+    font-size: 50px;
+}
+button{
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-left: 250px;
+    background-color: rgb(28, 199, 230);
+    border-radius: 20px;
+}
