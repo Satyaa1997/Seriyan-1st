@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#card{
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: bisque;
+   
+}
+#card1{
+    height: 280px;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: rgb(198, 211, 19);
+    border-radius: 10px;
+    box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.5);
+    gap: 5px;
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#profile img{
+    height: 110px;
+    width: 110px; 
+    border-radius: 50%;
+    background-size: cover;
+}
+#name h4{
+    text-align: center;
+    font-weight: bold;
+}
+#name p{
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+}
+button{
+   padding: 10px 30px;
+   background-color: rgb(69, 106, 226);
+   border-radius: 50px;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+
+#name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(5, 25, 128);
+    color: white;
+}
